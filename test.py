@@ -11,9 +11,9 @@ class Test(unittest.TestCase):
 	isTest = False
 
 	def setUp(self) -> None:
-			self.testList = getattr(import_module(f"{self.fileName}.test_case"),"TestCase")()
-			self.solution = getattr(import_module(f"{self.fileName}.solution"), "solution")	
-			return super().setUp()
+		self.testList = getattr(import_module(f"{self.fileName}.test_case"),"TestCase")()
+		self.solution = getattr(import_module(f"{self.fileName}.solution"), "solution")	
+		return super().setUp()
 
 	def testSolution(self):
 		print()
