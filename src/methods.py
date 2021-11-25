@@ -50,7 +50,7 @@ def getProblem(number):
 	bsObject = BeautifulSoup(html, "html.parser")
 
 	# 문제 가져오기
-	problem_description = bsObject.select('#problem_description > p, pre, img')
+	problem_description = bsObject.select('#problem_description > p, #problem_description > pre, #problem_description > img')
 	# problem_ul = bsObject.select('#problem_description > ul')
 	input_description = bsObject.select('#problem_input > p')
 	output_description = bsObject.select('#problem_output > p')
