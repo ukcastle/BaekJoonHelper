@@ -6,10 +6,10 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
 def getFileName(questionNum):
-	folderName = [x for x in os.listdir() if re.findall(rf"^{questionNum}_",x)]
+	folderName = [x for x in os.listdir('./Problem') if re.findall(rf"^{questionNum}_",x)]
 
 	if len(folderName) == 1:
-		return folderName[0]
+		return 'Problem.' + folderName[0]
 	
 	for name in folderName:
 		print(f"검색된 폴더 이름 : {name}")
@@ -44,3 +44,17 @@ def getTitleByNumber(number):
 	html = urlopen(f"https://www.acmicpc.net/problem/{number}")
 	bsObject = BeautifulSoup(html, "html.parser")
 	return bsObject.head.findAll("title")[0].__str__()[7:-8].replace("번: ","_")
+
+def getProblem(number):
+	html = urlopen(f"https://www.acmicpc.net/problem/{number}")
+	bsObject = BeautifulSoup(html, "html.parser")
+
+	# 문제 가져오기
+	problem_description = bsObject.select('#problem_description > p')
+	# problem_ul = bsObject.select('#problem_description > ul')
+	input_description = bsObject.select('#problem_input > p')
+	output_description = bsObject.select('#problem_output > p')
+	sample_i = bsObject.select("pre[id^=sample-input]")
+	sample_o = bsObject.select("pre[id^=sample-output]")
+
+	return problem_description, input_description, output_description, sample_i, sample_o
