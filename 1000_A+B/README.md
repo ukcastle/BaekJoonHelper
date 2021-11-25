@@ -9,14 +9,14 @@
 <hr/>### 출력
 <p>각 테스트 케이스마다 류재명이 있을 수 있는 위치의 수를 출력한다. 만약 류재명이 있을 수 있는 위치의 개수가 무한대일 경우에는 -1을 출력한다.</p>
 <hr/>### 입력 예시0
-<pre class="sampledata" id="sample-input-1">3
-0 0 13 40 0 37
-0 0 3 0 7 4
-1 1 1 1 1 5
+<pre class="sampledata" id="sample-input-1">3
+0 0 13 40 0 37
+0 0 3 0 7 4
+1 1 1 1 1 5
 </pre>
 ### 출력 예시0
-<pre class="sampledata" id="sample-output-1">2
-1
-0
+<pre class="sampledata" id="sample-output-1">2
+1
+0
 </pre>
 <hr/>
