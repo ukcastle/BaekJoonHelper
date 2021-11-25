@@ -1,3 +1,4 @@
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/input/tex/extensions/noerrors.js" charset="UTF-8"></script>
 ### 문제
 <p style="text-align: center;"><img alt="" src="https://upload.acmicpc.net/223958a7-5b84-4160-bd38-9dbe9144ec27/-/preview/"/></p>
 <p style="text-align: center;">[그림1] 연세대학교 셔틀버스</p>
@@ -24,32 +25,44 @@
 <hr/>
 
 ### 입력 예시 1
-5 6
-3 2 1 2
-2 3 3 4 4 5
+5 6
+
+3 2 1 2
+
+2 3 3 4 4 5
+
 
 ### 출력 예시 1
-8
+8
+
 
 <hr/>
 
 ### 입력 예시 2
-7 5
-1 1 1 1 1 1
-4 5 6 6 7
+7 5
+
+1 1 1 1 1 1
+
+4 5 6 6 7
+
 
 ### 출력 예시 2
-4
+4
+
 
 <hr/>
 
 ### 입력 예시 3
-6 4
-2 3 5 8 10
-1 3 3 4
+6 4
+
+2 3 5 8 10
+
+1 3 3 4
+
 
 ### 출력 예시 3
-F
+F
+
 
 <hr/>
 
