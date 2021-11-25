@@ -1,4 +1,5 @@
 ### 문제
+<div class="problem-text" id="problem_description">
 <p>nlog는 다음과 같은 <a href="https://www.acmicpc.net/problem/22965">문제</a>를 만들었다.</p>
 <blockquote>
 <p>$N$개의 서로 다른 정수를 가진 배열 $A$가 주어진다. 당신은 공격력이 양의 정수 $k$인 칼을 받았다. 이 칼이 있으면 배열에 아래와 같은 연산을 적용할 수 있다.</p>
@@ -11,6 +12,7 @@
 </blockquote>
 <p>하지만, 문제가 너무 쉬워 보여 질의를 주기로 했다.</p>
 <p>$l, r$이 주어지면 $A_l, A_{l + 1}, \cdots , A_r$로 구성된 연속 부분 배열에서 문제의 정답을 출력하자.</p>
+</div>
 <hr/>
 
 ### 입력
