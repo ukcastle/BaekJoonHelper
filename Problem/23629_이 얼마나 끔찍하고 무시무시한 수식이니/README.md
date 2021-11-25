@@ -3,6 +3,54 @@
 <pre>
 ONETWOTHREEFOUR+TWOTHREEFOURFIVE=</pre>
 <p>그렇다. 숫자만 안보이면 된다. 그래서, 아래의 표를 보고 숫자를 모두 영단어로 바꾸었다.</p>
+<table class="table table-bordered table-center-20">
+<tbody>
+<tr>
+<td>숫자</td>
+<td>영어</td>
+</tr>
+<tr>
+<td>0</td>
+<td>ZERO</td>
+</tr>
+<tr>
+<td>1</td>
+<td>ONE</td>
+</tr>
+<tr>
+<td>2</td>
+<td>TWO</td>
+</tr>
+<tr>
+<td>3</td>
+<td>THREE</td>
+</tr>
+<tr>
+<td>4</td>
+<td>FOUR</td>
+</tr>
+<tr>
+<td>5</td>
+<td>FIVE</td>
+</tr>
+<tr>
+<td>6</td>
+<td>SIX</td>
+</tr>
+<tr>
+<td>7</td>
+<td>SEVEN</td>
+</tr>
+<tr>
+<td>8</td>
+<td>EIGHT</td>
+</tr>
+<tr>
+<td>9</td>
+<td>NINE</td>
+</tr>
+</tbody>
+</table>
 <p>그런데, 이런 수식을 보다가 그만 식을 적은 사람이 정신을 잃었다. 우리가 식을 계산해서 알려주자!</p>
 <p>식을 정확하게 판단하여 정답을 구할 수 있다면, 정답을 출력하자! 만약, 식이 이상하다면 "Madness!" 를 출력하자!</p>
 <p>등장하는 연산자는 + , - , x, / (몫을 구하면 된다.) 로 총 4가지가 있다. 연산의 우선순위는 없고, 먼저 등장한 연산자를 우선적으로 계산하도록 한다. 식이 이상한 경우는 숫자 영단어나 연산자가 아닌 문자열을 포함하거나, 연산자가 연속해서 등장하는 경우이다.</p>

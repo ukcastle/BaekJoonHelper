@@ -23,7 +23,7 @@ if __name__ == '__main__':
 	# readme.md 파일 생성
 	f = open(f"./Problem/{name}/README.md", 'w', encoding='utf-8')
 	f.write('### 문제\n')
-	f.write('\n'.join([str(i).replace("src=\"", "src=\"https://www.acmicpc.net/") for i in problem_description]))
+	f.write('\n'.join([str(i).replace("src=\"upload", "src=\"https://www.acmicpc.net/upload") for i in problem_description]))
 	f.write('\n<hr/>\n\n')
 	f.write('### 입력\n')
 	f.write('\n'.join([str(i) for i in input_description]))
