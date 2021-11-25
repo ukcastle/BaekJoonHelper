@@ -33,10 +33,10 @@ if __name__ == '__main__':
 	f.write('\n<hr/>\n\n')
 	for i in range(len(sample_i)):
 		f.write('### 입력 예시 {}\n'.format(i+1))
-		f.write(sample_i[i].text + '\n')
+		f.write(sample_i[i].text.replace('\n', '\r\n') + '\n')
 		inputs.append(sample_i[i].text)
 		f.write('### 출력 예시 {}\n'.format(i+1))
-		f.write(sample_o[i].text + '\n<hr/>\n\n')
+		f.write(sample_o[i].text.replace('\n', '\r\n') + '\n<hr/>\n\n')
 		outputs.append(sample_o[i].text)
 	f.close()
 	
