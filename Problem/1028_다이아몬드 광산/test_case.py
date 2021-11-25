@@ -7,8 +7,8 @@ class TestCase(list):
     self.append((testInput,testOutput))
   
   def addTestCase(self):
-    testInput = ['5 5\n01100\n01011\n11111\n01111\n11111\n', '5 5\n01100\n00011\n11111\n01111\n11111\n', '4 4\n0000\n0000\n0000\n0000\n', '3 6\n111000\n101111\n111111\n']
-    testOutput = ['3\n', '2\n', '0\n', '2\n']
+    testInput = ['5 5\r\n01100\r\n01011\r\n11111\r\n01111\r\n11111\r\n', '5 5\r\n01100\r\n00011\r\n11111\r\n01111\r\n11111\r\n', '4 4\r\n0000\r\n0000\r\n0000\r\n0000\r\n', '3 6\r\n111000\r\n101111\r\n111111\r\n']
+    testOutput = ['3\r\n', '2\r\n', '0\r\n', '2\r\n']
     for i in range(len(testInput)):
       self.appendTest(testInput=testInput[i],testOutput=testOutput[i])
 
