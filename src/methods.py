@@ -53,9 +53,8 @@ def getProblem(number):
 	# problem_description = bsObject.select('#problem_description > p, #problem_description > pre, #problem_description > img, #problem_description > blockquote, #problem_description > table, #problem_description > ol, #problem_description > ul, #problem_description > li')
 	# 문제의 경우, 다양한 태그가 포함되어 있음
 	problem_description = bsObject.select('#problem_description')
-	# problem_ul = bsObject.select('#problem_description > ul')
 
-	# 특정태그들만 가져와도 됨
+	# 이 외, 문자만 존재하므로 특정태그만 가져와도 됨
 	input_description = bsObject.select('#problem_input > p')
 	output_description = bsObject.select('#problem_output > p')
 	sample_i = bsObject.select("pre[id^=sample-input]")
