@@ -43,6 +43,7 @@ python3 mkdir.py {문제 번호}
 <img src="./readme_img/1_mkdir.gif" width="80%">
 
 동일한 번호의 폴더가 2개이상 존재하는걸 일단 막아뒀습니다
+<br>
 ※ 수정 : 문제 생성시, README.md 파일을 만들어 문제에 대한 설명을 자동으로 추가하도록 
 
 <br>
@@ -51,6 +52,7 @@ python3 mkdir.py {문제 번호}
 <img src="readme_img/2_input_testcase.gif" width="50%">
 
 이 부분은 추후 좀 더 편하게 개선해야겠습니다  
+<br>
 ※ 수정 : 사이트 내 제시된 예제 케이스를 가져오게 변경
 
 <br>
