@@ -1,5 +1,5 @@
 def solution():
 
-	inputString = input()
+	a, b = list(map(int, input().split()))
 
-	print(inputString)
+	print(a+b)
