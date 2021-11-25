@@ -34,10 +34,10 @@ if __name__ == '__main__':
 	for i in range(len(sample_i)):
 		f.write('### 입력 예시 {}\n'.format(i+1))
 		f.write(sample_i[i].text.replace('\n', '\r\n') + '\n')
-		inputs.append(sample_i[i].text)
+		inputs.append(sample_i[i].text.replace('\n', '\r\n'))
 		f.write('### 출력 예시 {}\n'.format(i+1))
 		f.write(sample_o[i].text.replace('\n', '\r\n') + '\n<hr/>\n\n')
-		outputs.append(sample_o[i].text)
+		outputs.append(sample_o[i].text.replace('\n', '\r\n'))
 	f.close()
 	
 	# test_case 수정
