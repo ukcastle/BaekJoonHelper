@@ -49,7 +49,7 @@ python mkdir.py {문제 번호}
 <br>
 
 #### 문제번호/solution.py에 코드 입력
-<img src="readme_img/7_change_solution.gif" width="80%">
+<img src="readme_img/3_change_solution.gif" width="80%">
 
 프로그래머스와 같이 solution에 알고리즘을 정의합니다 
 
@@ -84,7 +84,7 @@ python3 test.py {문제번호} --test
 
 #### 제출할 때...  
 
-<img src="readme_img/3_write_solution__.gif" width="80%">  
+<img src="readme_img/7_change_annotation.gif" width="80%">  
 
 아직은 마땅한 방법이 생각이 나지 않아서 위와 같이 맨 아래에 solution() 함수를 적고 백준에 제출하는 방식으로 하고있습니다.  
 
