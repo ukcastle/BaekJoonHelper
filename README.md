@@ -2,17 +2,25 @@
 
 프로그래머스와 달리 백준에서는 함수의 return이 아닌 표준 입,출력으로 채점을 진행하는데, 이런 과정에서 매번 Input을 집어넣기 귀찮아서 만들었습니다.  
 
-아직 별로 테스트를 하지 못하여 오류가 많을테니 미리 죄송하고 버그나 불편한 점 알려주시면 감사하겠습니다  
+버그 발생시 Issue에 적어주시면 감사하겠습니다.
+
+## Update 1.2
+
+- 문제 설명 크롤링하여 Readme 생성
+- Test case 크롤링  
+	by. [14blacktea](https://github.com/14blacktea/BaekJoonHelper)
+
+<hr/>
 
 ## Usage
 
 #### 설치 
-> [다운로드 링크](https://github.com/ukcastle/BaekJoonHelper/releases/download/v1.0/bj_helper_1.0.tar.gz)  
+> [다운로드 링크](https://github.com/ukcastle/BaekJoonHelper/releases/download/v1.2/bj_helper_1.2.tar.gz)  
 
 ```sh  
 or
 
-wget https://github.com/ukcastle/BaekJoonHelper/releases/download/v1.0/bj_helper_1.0.tar.gz  
+wget https://github.com/ukcastle/BaekJoonHelper/releases/download/v1.2/bj_helper_1.2.tar.gz  
 
 or
 
@@ -21,40 +29,22 @@ git clone https://github.com/ukcastle/BaekJoonHelper
 
 #### 라이브러리 다운로드
 ```sh
-pip3 install urllib3 beautifulsoup4
-
-or 
-
-pip install urllib3 beautifulsoup4
-
-or 
-
-pip3 install -r requirments
+pip install -r requirments
 ```
-이후 python3로 통일하겠습니다 
 
 <br>
 
 #### mkdir.py
 
 ```sh
-python3 mkdir.py {문제 번호}
+python mkdir.py {문제 번호}
 ```
 <img src="./readme_img/1_mkdir.gif" width="80%">
 
-동일한 번호의 폴더가 2개이상 존재하는걸 일단 막아뒀습니다
-<br>
-※ 수정 : 문제 생성시, README.md 파일을 만들어 문제에 대한 설명을 자동으로 추가하도록 변경
-<br>
-※ 문제부분은 그림, 표 등 다양한 태그가 올 수 있으나, 이 외 입력,출력,예시는 특정 태그만 가져오도록함(필요하다면 모든 태그 가져오도록 수정)
-<br>
-
-#### 문제번호/test_case.py에 테스트케이스 입력
-<img src="readme_img/2_input_testcase.gif" width="50%">
-
-이 부분은 추후 좀 더 편하게 개선해야겠습니다  
-<br>
-※ 수정 : 사이트 내 제시된 예제 케이스를 가져오게 변경
+- v1.2 수정 
+  - 문제 생성시, README.md 파일을 만들어 문제에 대한 설명을 자동으로 추가하도록 변경    
+  - 문제부분은 그림, 표 등 다양한 태그가 올 수 있으나, 이 외 입력,출력,예시는 특정 태그만 가져오도록함(필요하다면 모든 태그 가져오도록 수정)  
+  - 사이트 내 제시된 예제 케이스를 가져오게 변경
 
 <br>
 
@@ -97,10 +87,8 @@ python3 test.py {문제번호} --test
 <img src="readme_img/3_write_solution__.gif" width="80%">  
 
 아직은 마땅한 방법이 생각이 나지 않아서 위와 같이 맨 아래에 solution() 함수를 적고 백준에 제출하는 방식으로 하고있습니다.  
-괜찮은 아이디어가 있으면 알려주시면 감사하겠습니다...  
 
 <hr/>
 
-#### 추가 수정이 필요해보이는 부분
-
-README 파일 내 mathjax를 적용할 수 없기 때문에 수식을 긁어오더라도 제대로 보여줄 수가 없음
+#### Further Learning
+- README 파일 내 mathjax를 적용할 수 없기 때문에 수식을 긁어오더라도 제대로 보여줄 수가 없음
