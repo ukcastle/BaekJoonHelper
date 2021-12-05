@@ -7,8 +7,8 @@ class TestCase(list):
     self.append((testInput,testOutput))
   
   def addTestCase(self):
-    testInput = "input_modify"
-    testOutput = "output_modify"
+    testInput = ['4\r\n2 3 1\r\n5 2 4 1\r\n', '4\r\n3 3 4\r\n1 1 1 1\r\n']
+    testOutput = ['18\r\n', '10\r\n']
     for i in range(len(testInput)):
       self.appendTest(testInput=testInput[i],testOutput=testOutput[i])
 

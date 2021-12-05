@@ -7,8 +7,8 @@ class TestCase(list):
     self.append((testInput,testOutput))
   
   def addTestCase(self):
-    testInput = "input_modify"
-    testOutput = "output_modify"
+    testInput = ['6\r\n(())())\r\n(((()())()\r\n(()())((()))\r\n((()()(()))(((())))()\r\n()()()()(()()())()\r\n(()((())()(\r\n', '3\r\n((\r\n))\r\n())(()\r\n']
+    testOutput = ['NO\r\nNO\r\nYES\r\nNO\r\nYES\r\nNO\r\n', 'NO\r\nNO\r\nNO\r\n']
     for i in range(len(testInput)):
       self.appendTest(testInput=testInput[i],testOutput=testOutput[i])
 

@@ -7,12 +7,9 @@ class TestCase(list):
     self.append((testInput,testOutput))
   
   def addTestCase(self):
-    testInput = """
-    1 2
-    """
-    testOutput = """
-    3
-    """
-    self.appendTest(testInput=testInput,testOutput=testOutput)
+    testInput = ['5\r\r\n3 1 4 3 2\r\r\n']
+    testOutput = ['32\r\r\n']
+    for i in range(len(testInput)):
+      self.appendTest(testInput=testInput[i],testOutput=testOutput[i])
 
 
